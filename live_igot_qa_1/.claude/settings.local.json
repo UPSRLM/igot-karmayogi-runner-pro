@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/upsrl/OneDrive/Documents/New project/live_igot_qa//**)",
+      "Read(//c/Users/upsrl/OneDrive/Documents/New project//**)",
+      "Bash(git -C \"/c/Users/upsrl/OneDrive/Documents/New project\" remote -v)",
+      "Bash(git -C \"/c/Users/upsrl/OneDrive/Documents/New project\" branch -a)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(gh api:*)"
+    ]
+  }
+}

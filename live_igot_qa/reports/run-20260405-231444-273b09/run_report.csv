@@ -1,0 +1,6 @@
+run_id,timestamp,course_name,module_name,module_type,status,block_reason,evidence,next_action
+run-20260405-231444-273b09,2026-04-05T17:45:23.660045+00:00,Human Centered Design and Empathy 5 Questions,Human Centered Design and Empathy,quiz,partial,,Assessment/practice item skipped by configuration (--skip-assessments),Continue to next non-assessment module
+run-20260405-231444-273b09,2026-04-05T17:45:25.009485+00:00,Human Centered Design and Empathy 5 Questions,Phase 1: Research,quiz,partial,,Assessment/practice item skipped by configuration (--skip-assessments),Continue to next non-assessment module
+run-20260405-231444-273b09,2026-04-05T17:45:26.351929+00:00,Human Centered Design and Empathy 5 Questions,Phase 2: Synthesis,quiz,partial,,Assessment/practice item skipped by configuration (--skip-assessments),Continue to next non-assessment module
+run-20260405-231444-273b09,2026-04-05T17:45:27.695746+00:00,Human Centered Design and Empathy 5 Questions,Phase 3: Ideation,quiz,partial,,Assessment/practice item skipped by configuration (--skip-assessments),Continue to next non-assessment module
+run-20260405-231444-273b09,2026-04-05T17:45:29.045078+00:00,Human Centered Design and Empathy 5 Questions,Phase 4: Experimentation,quiz,partial,,Assessment/practice item skipped by configuration (--skip-assessments),Continue to next non-assessment module

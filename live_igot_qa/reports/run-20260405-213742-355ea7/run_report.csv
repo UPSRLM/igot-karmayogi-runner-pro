@@ -1,0 +1,33 @@
+run_id,timestamp,course_name,module_name,module_type,status,block_reason,evidence,next_action
+run-20260405-213742-355ea7,2026-04-05T16:10:40.514648+00:00,Recommended Reading,Introduction to GenAI,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""Introduction\\ to\\ GenAI"").first
+",Open module manually and rerun
+run-20260405-213742-355ea7,2026-04-05T16:11:10.528074+00:00,Recommended Reading,1h 36m 10 items,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""1h\\ 36m\\ 10\\ items"").first
+",Open module manually and rerun
+run-20260405-213742-355ea7,2026-04-05T16:11:40.540221+00:00,Recommended Reading,Gen AI in Daily Life,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""Gen\\ AI\\ in\\ Daily\\ Life"").first
+",Open module manually and rerun
+run-20260405-213742-355ea7,2026-04-05T16:12:10.548573+00:00,Recommended Reading,1h 49m 10 items,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""1h\\ 49m\\ 10\\ items"").first
+",Open module manually and rerun
+run-20260405-213742-355ea7,2026-04-05T16:12:40.556675+00:00,Recommended Reading,How does Gen AI Work,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""How\\ does\\ Gen\\ AI\\ Work"").first
+",Open module manually and rerun
+run-20260405-213742-355ea7,2026-04-05T16:13:10.566203+00:00,Recommended Reading,36m 35s 7 items,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""36m\\ 35s\\ 7\\ items"").first
+",Open module manually and rerun
+run-20260405-213742-355ea7,2026-04-05T16:13:40.585162+00:00,Recommended Reading,Let's Tame the Dragon,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""Let's\\ Tame\\ the\\ Dragon"").first
+",Open module manually and rerun
+run-20260405-213742-355ea7,2026-04-05T16:14:10.604866+00:00,Recommended Reading,32m 36s 3 items,unknown,blocked,technical_error,"Module navigation failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(""32m\\ 36s\\ 3\\ items"").first
+",Open module manually and rerun

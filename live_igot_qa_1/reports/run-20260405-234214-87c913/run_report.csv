@@ -1,0 +1,2 @@
+run_id,timestamp,course_name,module_name,module_type,status,block_reason,evidence,next_action
+run-20260405-234214-87c913,2026-04-05T18:14:18.398585+00:00,Design Thinking for Data Professionals,Human Centered Design and Empathy,video,partial,,"video playback progressing (0.0s -> 7.0s) at 2.00x; speed target 2x, applied to 1/1 video element(s), ui_click=False; completion not yet confirmed; Auto video wait timed out after 60s",Allow playback to complete and rerun audit

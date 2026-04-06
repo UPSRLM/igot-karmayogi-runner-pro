@@ -1,0 +1,4 @@
+run_id,timestamp,course_name,module_name,module_type,status,block_reason,evidence,next_action
+run-20260405-211302-a3c3b0,2026-04-05T15:43:46.694414+00:00,AI for Digital Transformation: ML and DL Course FA... 5s,AI for Digital Transformation: ML and DL Course FAQs,pdf,done,,pdf completion signal: ui badge signal 'completed',Continue to next eligible module
+run-20260405-211302-a3c3b0,2026-04-05T15:44:23.778481+00:00,Introduction to AI and it's applications 14m 55s,course_discovery,unknown,blocked,technical_error,No module candidates discovered on course page,"Open course player/TOC manually, then rerun"
+run-20260405-211302-a3c3b0,2026-04-05T15:44:30.838711+00:00,ML and DL Fundamentals 25m,course_discovery,unknown,blocked,technical_error,No module candidates discovered on course page,"Open course player/TOC manually, then rerun"

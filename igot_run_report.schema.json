@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/igot_run_report.schema.json",
+  "title": "iGot Progress QA Run Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "timestamp",
+    "course_name",
+    "module_name",
+    "module_type",
+    "status",
+    "block_reason",
+    "evidence",
+    "next_action"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "course_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "module_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "module_type": {
+      "type": "string",
+      "enum": [
+        "video",
+        "reading",
+        "pdf",
+        "slides",
+        "quiz",
+        "unknown"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "done",
+        "blocked",
+        "partial"
+      ]
+    },
+    "block_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "prerequisite_lock",
+        "timer_lock",
+        "technical_error",
+        "permission_issue",
+        null
+      ]
+    },
+    "evidence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "blocked"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "block_reason": {
+            "type": "string",
+            "enum": [
+              "prerequisite_lock",
+              "timer_lock",
+              "technical_error",
+              "permission_issue"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "done",
+              "partial"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "block_reason": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  ],
+  "examples": [
+    {
+      "run_id": "run-20260405-0001",
+      "timestamp": "2026-04-05T12:30:00Z",
+      "course_name": "Digital Governance Foundations",
+      "module_name": "Citizen Services Overview",
+      "module_type": "video",
+      "status": "done",
+      "block_reason": null,
+      "evidence": "playback complete event + sidebar module state complete",
+      "next_action": "open next eligible module from sidebar"
+    },
+    {
+      "run_id": "run-20260405-0001",
+      "timestamp": "2026-04-05T12:45:00Z",
+      "course_name": "Digital Governance Foundations",
+      "module_name": "Assessment 1",
+      "module_type": "quiz",
+      "status": "blocked",
+      "block_reason": "permission_issue",
+      "evidence": "submit control disabled for current role; access denied modal captured",
+      "next_action": "escalate to admin and continue with other eligible modules"
+    }
+  ]
+}

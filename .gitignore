@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# Screenshots & audit images
+*.png
+*.jpg
+*.jpeg
+
+# HTML snapshots & cover pages
+*-cover.html
+*-cover-v2.html
+home-live-*.html
+home-live-after-*.html
+home-page-current*.html
+home-page-raw.xml
+home-page-*.xmltxt
+image-*.html
+
+# Office documents (working files)
+*.docx
+*.doc
+~$*
+
+# PowerShell working scripts
+fix-homepage-*.ps1
+growth-*.ps1
+refresh-*.ps1
+update-*.ps1
+
+# Misc working files
+pasted_content_compliant.txt
+toc_headings_full.json

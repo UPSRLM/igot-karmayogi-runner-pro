@@ -1,0 +1,1 @@
+{"run_id": "run-20260405-210418-e38cdc", "timestamp": "2026-04-05T15:34:37.063517+00:00", "course_name": "Direct Course", "module_name": "course_discovery", "module_type": "unknown", "status": "blocked", "block_reason": "technical_error", "evidence": "No module candidates discovered on course page", "next_action": "Open course manually and rerun discovery"}

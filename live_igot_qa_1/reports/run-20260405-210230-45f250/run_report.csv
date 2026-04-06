@@ -1,0 +1,3 @@
+run_id,timestamp,course_name,module_name,module_type,status,block_reason,evidence,next_action
+run-20260405-210230-45f250,2026-04-05T15:34:06.837271+00:00,Next,course_discovery,unknown,blocked,technical_error,No module candidates discovered on course page,Open course manually and rerun discovery
+run-20260405-210230-45f250,2026-04-05T15:34:15.606848+00:00,AI for Digital Transformation: ML and DL Course FA... 5s,course_discovery,unknown,blocked,technical_error,No module candidates discovered on course page,Open course manually and rerun discovery

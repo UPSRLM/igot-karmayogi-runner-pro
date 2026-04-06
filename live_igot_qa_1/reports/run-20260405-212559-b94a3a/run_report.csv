@@ -1,0 +1,2 @@
+run_id,timestamp,course_name,module_name,module_type,status,block_reason,evidence,next_action
+run-20260405-212559-b94a3a,2026-04-05T16:02:17.110736+00:00,AI for Digital Transformation: ML and DL Course FA... 5s,AI for Digital Transformation: ML and DL Course FAQs,pdf,blocked,technical_error,Module content still loading (spinner/shell),"Open module manually, wait for content, then rerun"
