@@ -14,10 +14,10 @@ Built by **Saurabh Shukla** — [echonerve.com](https://echonerve.com)
 > **👋 Free to use. One ask: join the community.**
 >
 > This tool is MIT-licensed and free forever. If it saves you time, please take 30 seconds to
-> **[register a free EchoNerve account](https://echonerve.com/membership-checkout/?pmpro_level=4)** —
+> <a href="https://echonerve.com/membership-checkout/?pmpro_level=4" target="_blank" rel="noopener"><strong>register a free EchoNerve account</strong></a> —
 > it's where I write about AI systems, automation, and tools like this one. No cost, no spam.
 >
-> → **[echonerve.com — Free Reader signup](https://echonerve.com/membership-checkout/?pmpro_level=4)**
+> → <a href="https://echonerve.com/membership-checkout/?pmpro_level=4" target="_blank" rel="noopener"><strong>echonerve.com — Free Reader signup</strong></a>
 
 ---
 
@@ -237,4 +237,4 @@ MIT — see [LICENSE](./LICENSE). Copyright © 2026 Saurabh Shukla / [EchoNerve]
 
 ---
 
-*If this tool helped you, [join EchoNerve](https://echonerve.com/membership-checkout/?pmpro_level=4) — free, no strings.*
+*If this tool helped you, <a href="https://echonerve.com/membership-checkout/?pmpro_level=4" target="_blank" rel="noopener">join EchoNerve</a> — free, no strings.*
