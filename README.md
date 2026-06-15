@@ -7,17 +7,17 @@ Built by **Saurabh Shukla** — [echonerve.com](https://echonerve.com)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/automation-Playwright-45ba4b.svg)](https://playwright.dev/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
-[![EchoNerve](https://img.shields.io/badge/community-Join%20EchoNerve%20%E2%86%92-FF6B35.svg)](https://echonerve.com/membership-checkout/?pmpro_level=4)
+[![EchoNerve](https://img.shields.io/badge/community-Join%20EchoNerve%20%E2%86%92-FF6B35.svg)](https://echonerve.com/igot-karmayogi-runner-pro/)
 
 ---
 
 > **👋 Free to use. One ask: join the community.**
 >
 > This tool is MIT-licensed and free forever. If it saves you time, please take 30 seconds to
-> <a href="https://echonerve.com/membership-checkout/?pmpro_level=4" target="_blank" rel="noopener"><strong>register a free EchoNerve account</strong></a> —
+> <a href="https://echonerve.com/igot-karmayogi-runner-pro/" target="_blank" rel="noopener"><strong>register a free EchoNerve account</strong></a> —
 > it's where I write about AI systems, automation, and tools like this one. No cost, no spam.
 >
-> → <a href="https://echonerve.com/membership-checkout/?pmpro_level=4" target="_blank" rel="noopener"><strong>echonerve.com — Free Reader signup</strong></a>
+> → <a href="https://echonerve.com/igot-karmayogi-runner-pro/" target="_blank" rel="noopener"><strong>echonerve.com/igot-karmayogi-runner-pro</strong></a>
 
 ---
 
@@ -237,4 +237,4 @@ MIT — see [LICENSE](./LICENSE). Copyright © 2026 Saurabh Shukla / [EchoNerve]
 
 ---
 
-*If this tool helped you, <a href="https://echonerve.com/membership-checkout/?pmpro_level=4" target="_blank" rel="noopener">join EchoNerve</a> — free, no strings.*
+*If this tool helped you, <a href="https://echonerve.com/igot-karmayogi-runner-pro/" target="_blank" rel="noopener">join EchoNerve</a> — free, no strings.*
