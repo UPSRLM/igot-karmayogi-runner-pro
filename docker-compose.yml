@@ -1,0 +1,13 @@
+services:
+  igot-service:
+    build: .
+    container_name: igot-service
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./service-data:/app/service-data
+      - ./reports:/app/reports
+      - ./browser-profile:/app/browser-profile
